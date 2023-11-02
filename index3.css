@@ -1,0 +1,25 @@
+*{
+    color: black;
+}
+
+.loader{
+    margin: 50px;
+    height: 300px;
+    width: 300px;
+    border: 20px solid yellow;
+    border-top: 20px solid blue;
+    border-radius: 50%;
+    animation: loader 5s ease-in 0s infinite normal ;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        background-color: purple;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
